@@ -33,6 +33,7 @@
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+
 }
 
 /* header section end */
@@ -47,21 +48,7 @@ p {
 }
 
 /* start of new section */
-.float-left {
-    float: left;
-    margin-right: 50px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 50px;
-}
-
-.work {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 section {
     padding: 40px;
@@ -73,3 +60,98 @@ section {
     background-size: cover;
     background-position: center;
 }
+
+/* sectio  a new */
+.float-left {
+    float: left;
+    margin-right: 50px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 50px;
+}
+
+/* hero section / About me box */
+.intro{
+    width: 125%; 
+    margin-right: 20px;
+}
+
+.intro h2 {
+    font-size: 40px;
+    text-align: left; 
+}
+
+
+
+/* end of the hero section */ 
+
+/* section for run buddy block */ 
+.run {
+    width:max-content;
+    display: inline-block;
+}
+
+
+.run-buddy {
+    margin-bottom: 10px;
+    padding: 20px;
+    height: 300px;
+    background-color:aquamarine;
+    color: black;
+}
+
+.run-buddy img {
+    max-height: 290px;
+}
+
+.run-buddy h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* section to display previous work or projects */
+.work {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.work h2 {
+    font-size: 40px;
+    text-align: left; 
+}
+
+.sites {
+    margin-bottom: 20px; 
+    padding: 20px; 
+    height: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:aquamarine;
+    color: black;
+}
+
+.sites img {
+    max-height: 180px;
+}
+
+.sites h3 {
+    margin-bottom: 20px;
+    font-size: 20px; 
+}
+/* end is previous work display section */
+
+/* footer section starts here */
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 40px;
+    text-align:left;
+}
+
+/* footer section end */
