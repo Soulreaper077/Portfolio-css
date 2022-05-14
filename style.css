@@ -69,9 +69,11 @@ section {
     height: 200px;
     background-size: cover;
     background-position: center;
+    display: flex; 
+    
 }
 
-/* sectio  a new */
+/* sectio  a new *
 .float-left {
     float: left;
     margin-right: 50px;
@@ -84,12 +86,13 @@ section {
 
 /* hero section / About me box */
 .intro{
-    width: 125%; 
-    margin-right: 20px;
-    background-image: url(./background-image/hero\ img\ .jpeg);
+    
     display: flex;
-    align-items: center; 
+    align-items:center; 
     flex-wrap: wrap;
+    background-image: url(./background-image/black\ backgrond.webp);
+    height: 400px;
+    
     
     
 }
@@ -97,6 +100,8 @@ section {
 .intro h2 {
     font-size: 40px;
     text-align: left; 
+    color: white;
+    padding: 20px; 
 }
 
 .intro p {
@@ -104,14 +109,16 @@ section {
     width: 60%;
     font-size: 20px;
     margin: 0 auto;
+    color:white;
     
 }
-
+/*
 .intro img {
     width: 15%;
     margin: 10px 0; 
+    
 }
-
+*/
 
 
 /* end of the hero section */ 
@@ -157,7 +164,10 @@ section {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 220px;
+    align-items: center; 
+    margin:0px auto; 
+    
+    
 
     
 }
