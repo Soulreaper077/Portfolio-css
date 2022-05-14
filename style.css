@@ -129,6 +129,10 @@ section {
     font-size: 20px;
 }
 
+.run p {
+    color:black; 
+}
+
 /* section to display previous work or projects */
 .work {
     width: 75%;
