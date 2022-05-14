@@ -11,12 +11,14 @@
     padding: 0px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #2a607c; 
-    color: #fff;
+    color:turquoise;
+    
 }
 
 .header h1 {
     display: inline-block;
     font-size: 40px;
+    background-color:cadetblue; 
 }
 
 .header nav {
@@ -33,13 +35,14 @@
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    
 
 }
 
 /* header section end */
 
 a {
-    color: #040a0e;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -76,11 +79,25 @@ section {
 .intro{
     width: 125%; 
     margin-right: 20px;
+    background-color:#2a607c;
+    
 }
 
 .intro h2 {
     font-size: 40px;
     text-align: left; 
+}
+
+.intro p {
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+    margin: 0 auto; 
+}
+
+.intro img {
+    width: 15%;
+    margin: 10px 0; 
 }
 
 
@@ -98,12 +115,13 @@ section {
     margin-bottom: 10px;
     padding: 20px;
     height: 300px;
-    background-color:aquamarine;
+    background-color: grey;
     color: black;
 }
 
 .run-buddy img {
-    max-height: 290px;
+    max-height: 220px;
+    margin: 0 auto; 
 }
 
 .run-buddy h3 {
@@ -116,6 +134,7 @@ section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .work h2 {
@@ -128,12 +147,12 @@ section {
     padding: 20px; 
     height: 100px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:aquamarine;
+    background-color: grey;
     color: black;
 }
 
 .sites img {
-    max-height: 180px;
+    max-height: 100px;
 }
 
 .sites h3 {
@@ -147,6 +166,7 @@ section {
     padding: 30px;
     clear: both;
     text-align: center;
+    background-color:#2a607c; 
 }
 
 .footer h2 {
