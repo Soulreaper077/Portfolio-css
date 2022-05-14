@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:darkslategrey; 
+    background-color:lightsteelblue; 
     
 }
 
@@ -14,11 +14,11 @@ body {
 
 /* header */
 .header {
-    padding: 0px;
+    padding: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:darkslategrey; 
+    background-color: lightslategray; 
     color:turquoise;
-    border: 3px solid black;
+    
     
 }
 
@@ -49,7 +49,7 @@ body {
 /* header section end */
 
 a {
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ section {
 }
 
 .hero {
-    background-image: url(./background-image/hero\ img\ .jpeg);
+    background-image: url(./background-image/about\ me\ .jpeg);
     height: 200px;
     background-size: cover;
     background-position: center;
@@ -86,7 +86,7 @@ section {
 .intro{
     width: 125%; 
     margin-right: 20px;
-    background-image: url(./background-image/about\ me\ .jpeg);
+    background-image: url(./background-image/hero\ img\ .jpeg);
     display: flex;
     align-items: center; 
     flex-wrap: wrap;
@@ -190,7 +190,7 @@ section {
 
 .run-buddy {
     background-image: url(./background-image/run\ buddy.png);
-    border: 3px solid mediumspringgreen;
+    border: 3px solid lightseagreen;
     height: 300px; 
     width: 1000px; 
 
@@ -199,23 +199,23 @@ section {
 
 .one {
     background-image: url(./background-image/Sep_01.png);
-    border: 3px solid mediumspringgreen;
+    border: 3px solid lightseagreen;
 }
 
 .two {
     background-image: url(./background-image/num\ 2.webp);
-    border: 3px solid mediumspringgreen;
+    border: 3px solid lightseagreen;
 
 }
 
 .three {
     background-image: url(./background-image/num\ 3.jpeg);
-    border: 3px solid mediumspringgreen;
+    border: 3px solid lightseagreen;
 }
 
 .four {
     background-image: url(./background-image/four.webp);
-    border: 3px solid mediumspringgreen;
+    border: 3px solid lightseagreen;
 }
 
 
@@ -235,7 +235,7 @@ section {
     padding: 30px;
     clear: both;
     text-align: center;
-    background-color:darkslategrey; 
+    background-color:lightsteelblue; 
     border: 3px solid black;
 }
 
