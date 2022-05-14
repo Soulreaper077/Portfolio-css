@@ -2,6 +2,12 @@
     box-sizing:border-box;
     padding: 0;
     margin: 0;
+    
+}
+
+body {
+    background-color:darkslategrey; 
+    
 }
 
 
@@ -10,8 +16,9 @@
 .header {
     padding: 0px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #2a607c; 
+    background-color:darkslategrey; 
     color:turquoise;
+    border: 3px solid black;
     
 }
 
@@ -79,7 +86,11 @@ section {
 .intro{
     width: 125%; 
     margin-right: 20px;
-    background-color:#2a607c;
+    background-image: url(./background-image/about\ me\ .jpeg);
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    
     
 }
 
@@ -92,7 +103,8 @@ section {
     text-align: center;
     width: 60%;
     font-size: 20px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    
 }
 
 .intro img {
@@ -105,11 +117,13 @@ section {
 /* end of the hero section */ 
 
 /* section for run buddy block */ 
+
+/*
 .run {
     width:max-content;
     display: inline-block;
 }
-
+*
 
 .run-buddy {
     margin-bottom: 10px;
@@ -117,8 +131,11 @@ section {
     height: 300px;
     background-color: grey;
     color: black;
+    background-image: url(./background-image/run\ buddy.png);
+    
+    right: 160px; 
 }
-
+/*
 .run-buddy img {
     max-height: 220px;
     margin: 0 auto; 
@@ -132,36 +149,84 @@ section {
 .run p {
     color:black; 
 }
+*/ 
 
 /* section to display previous work or projects */
+
 .work {
     width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 220px;
+
     
 }
 
 .work h2 {
     font-size: 40px;
     text-align: left; 
+    clear:both; 
+    margin-right: 150px; 
 }
 
+
 .sites {
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
     padding: 20px; 
-    height: 100px;
+    height: 180px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: grey;
     color: black;
+    display: inline-block; 
+    width: 500px; 
+    
+    
 }
+
+.sites:hover {
+    transform: scale(1.2);
+    opacity: .75;
+}
+
+.run-buddy {
+    background-image: url(./background-image/run\ buddy.png);
+    border: 3px solid mediumspringgreen;
+    height: 300px; 
+    width: 1000px; 
+
+}
+
+
+.one {
+    background-image: url(./background-image/Sep_01.png);
+    border: 3px solid mediumspringgreen;
+}
+
+.two {
+    background-image: url(./background-image/num\ 2.webp);
+    border: 3px solid mediumspringgreen;
+
+}
+
+.three {
+    background-image: url(./background-image/num\ 3.jpeg);
+    border: 3px solid mediumspringgreen;
+}
+
+.four {
+    background-image: url(./background-image/four.webp);
+    border: 3px solid mediumspringgreen;
+}
+
 
 .sites img {
     max-height: 100px;
 }
 
-.sites h3 {
+.sites p {
     margin-bottom: 20px;
     font-size: 20px; 
+    color: black; 
 }
 /* end is previous work display section */
 
@@ -170,12 +235,20 @@ section {
     padding: 30px;
     clear: both;
     text-align: center;
-    background-color:#2a607c; 
+    background-color:darkslategrey; 
+    border: 3px solid black;
 }
 
 .footer h2 {
     font-size: 40px;
     text-align:left;
+}
+
+.footer a {
+    font-size: 20px;
+    display: flex; 
+    list-style-type: none;
+
 }
 
 /* footer section end */
