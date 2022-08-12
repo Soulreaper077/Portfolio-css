@@ -42,8 +42,6 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    
-
 }
 
 /* header section end */
@@ -70,7 +68,6 @@ section {
     background-size: cover;
     background-position: center;
     display: flex; 
-    
 }
 
 /* sectio  a new *
@@ -92,9 +89,6 @@ section {
     flex-wrap: wrap;
     background-image: url(./background-image/black\ backgrond.webp);
     height: 400px;
-    
-    
-    
 }
 
 .intro h2 {
@@ -110,7 +104,6 @@ section {
     font-size: 20px;
     margin: 0 auto;
     color:white;
-    
 }
 /*
 .intro img {
